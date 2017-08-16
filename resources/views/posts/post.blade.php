@@ -25,9 +25,7 @@
 @section('content')
 
     <article>
-        <div class="row">
-            {!!html_entity_decode($post->body)!!}
-        </div>
+        {!!html_entity_decode($post->body)!!}
     </article>
 
     {{-- Controls --}}
@@ -47,27 +45,25 @@
     @endif
 
     {{-- Pagination --}}
-    <div class="row">
-        <ul class="pager">
+    <ul class="pager">
 
-            @if(!is_null($newer))
-                <li class="previous">
-                    <a href="{{ route('posts.show', ['id'=>$newer->id]) }}" class="btn btn-default">
-                        ← Newer
-                    </a>
-                </li>
-            @endif
+        @if(!is_null($newer))
+            <li class="previous">
+                <a href="{{ route('posts.show', ['id'=>$newer->id]) }}" class="btn btn-default">
+                    ← Newer
+                </a>
+            </li>
+        @endif
 
-            @if(!is_null($older))
-                <li class="next">
-                    <a href="{{ route('posts.show', ['id'=>$older->id]) }}" class="btn btn-default">
-                        Older →
-                    </a>
-                </li>
-            @endif
+        @if(!is_null($older))
+            <li class="next">
+                <a href="{{ route('posts.show', ['id'=>$older->id]) }}" class="btn btn-default">
+                    Older →
+                </a>
+            </li>
+        @endif
 
-        </ul>
-    </div>
+    </ul>
 
 @endsection
 
