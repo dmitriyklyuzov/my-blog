@@ -1,6 +1,6 @@
 @extends('layouts.clean-blog')
 
-{{-- @section('title', "All posts by $user->name") --}}
+@section('title', "Dmitriy's blog")
 
 @section('og-tags')
     <meta property="og:image" content="url('/img/home-bg.jpg')">
