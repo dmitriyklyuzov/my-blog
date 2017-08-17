@@ -1,6 +1,6 @@
 # My blog
 
-A repo for [my personal blog](blog.dmitriyklyuzov.com)
+A repo for [my personal blog](http://blog.dmitriyklyuzov.com)
 
 ## Built with
 
