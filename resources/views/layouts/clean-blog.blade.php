@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Dmitriy Klyuzov">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     @yield('og-tags')
@@ -41,7 +41,7 @@
                         <span class="sr-only">Toggle navigation</span>
                         Menu <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="/">Larapages</a>
+                    <a class="navbar-brand" href="/">Dmitriy Klyuzov</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,9 +51,6 @@
                         @if(Auth::guest())
                             <li>
                                 <a href="{{ url('/login') }}">Login</a>
-                            </li>
-                            <li>
-                                <a href="{{ url('/register') }}">Register</a>
                             </li>
                         @else
                             <li>
@@ -153,7 +150,8 @@
                         </li>
                     </ul>
                     <p class="copyright text-muted">
-                        Created by <a href="http://dmitriyklyuzov.github.io">Dmitriy Klyuzov</a> using the <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog Theme</a></p>
+                        Created by <a href="http://dmitriyklyuzov.com">Dmitriy Klyuzov</a>
+                    </p>
                 </div>
             </div>
         </div>

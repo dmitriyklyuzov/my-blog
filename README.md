@@ -11,6 +11,6 @@ A repo for [my personal blog](blog.dmitriyklyuzov.com)
 
 ## Acknowledgements
 
-* Brad Traversy of Traversy Media - his great tutorias
+* Brad Traversy of [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) - his great tutorias
 * My wife - inspiration and feedback
 * My friends - support and feedback
